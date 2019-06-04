@@ -42,4 +42,41 @@ html {
 @HTMLBuilder
 
 
+## SwiftUI
+
+- Declarative Syntax (e.g. switching views)
+- Convenient Preview and Short cut, eg. wrap with List, Extract as Custom View
+- Drag and drop "Modifier" from the + button (e.g. Image Fit, etc)
+- Multiple Previews 
+- @State syntax to hold ui state
+- .tapAction
+- Very reactive
+
+```
+@State var zoomed = false
+//...
+Image(...).tapAction{ self.zoomed.toggle()} // easy to wrap it with withAnimation {}
+```
+
+Readonly - Constant and Property
+R/W  - @State Bindable Object, @binding
+
+- About UI Complexity
+- UI Complexity adding condition is N! compexity (e.g. 4 events can be coming in 4 x 3 x 2 x 1 different order)
+- When complexity surpass the human brain capacity, bug will emerge
+
+- SwiftUI Introduce automatic binding between data and UI State
+
+Tutorial
+
+https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+
+## Introducing SiriKit Media Intents
+
+Siri Media Intent
+
+- Music, Podcast, Radio
+- Skipping confirmation
+
+not much control?
 
