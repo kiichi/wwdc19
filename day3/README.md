@@ -146,3 +146,15 @@ https://developer.apple.com/videos/play/wwdc2019/216/
 - ML:model delivery service https://skafos.ai/ Skafos.ai
 - nexmo - twilio competitor https://www.nexmo.com/ 
 
+## AdHoc, Enterprise, etc
+
+- Individuals
+	- AdHoc - for testing purpose
+	- App Store
+- Organizations
+	- In-House
+	- Custom App - hosted custom app (Hosted enterprise?)
+
+
+
+

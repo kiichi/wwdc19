@@ -14,4 +14,5 @@ struct Employee: Hashable, Codable, Identifiable {
     var name : String
     var jobTitle : String
     var imageName: String
+    var badgeIds: [Int]
 }

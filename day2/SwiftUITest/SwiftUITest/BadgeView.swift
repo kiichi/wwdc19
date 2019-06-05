@@ -14,7 +14,12 @@ struct BadgeImageView : View {
         Image(imageName)
             .frame(width:50, height: 50)
             .imageScale(.small) // ?
-            .scaledToFit() //?            
+            .scaledToFit() //?
+            .clipShape(Circle())
+            .overlay(
+                Circle().stroke(Color.purple, lineWidth: 3))
+            .shadow(radius: 5)
+            .padding()
     }
 }
 

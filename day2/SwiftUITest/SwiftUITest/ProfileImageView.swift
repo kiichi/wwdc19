@@ -12,11 +12,15 @@ struct ProfileImageView : View {
     let imageName:String
     var body: some View {
         Image(imageName)
+            //.background(Color.gray, cornerRadius: 20)
             .frame(width:200, height: 200)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .overlay(
+                RoundedRectangle(cornerRadius: 20).stroke(Color.white, lineWidth: 5)
+            )
+            .shadow(radius: 10)
             .padding()
             .scaledToFit() // mmm not working
-            .clipShape(RoundedRectangle(cornerRadius: 20))
-            .background(Color.gray, cornerRadius: 20)
     }
 }
 
