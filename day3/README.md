@@ -138,6 +138,11 @@ https://developer.apple.com/videos/play/wwdc2019/216/
 - snapshot and apply
 - NSDiffableDataSourceSnapshot
 - Process is create another snapshot, and absorbe the diff, and animate the transition
+- Extremelly powerful diff
 
+## Other Visit at Marriot
 
+- AWS AppSync, persistant data and offline work, conflict resolution also GraphQL
+- ML:model delivery service https://skafos.ai/ Skafos.ai
+- nexmo - twilio competitor https://www.nexmo.com/ 
 
