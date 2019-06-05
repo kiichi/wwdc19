@@ -7,14 +7,18 @@
 //
 
 import SwiftUI
+let employees: [Employee] = [
+    Employee(id:1, name: "Kiichi", jobTitle: "Dev", imageName: "user1"),
+    Employee(id:2, name: "John Doe", jobTitle: "Associate Sales Manager", imageName: "user2"),
+    Employee(id:3, name: "Mary Ann", jobTitle: "Directory of Media Arts", imageName: "user3")
+]
 
 struct ContentView : View {
     var body: some View {
-        VStack {
-            EmployeeView(employee: Employee(name: "Kiichi", jobTitle: "Dev", imageName: "user1"))
-            EmployeeView(employee: Employee(name: "John Doe", jobTitle: "Associate Sales Manager", imageName: "user2"))
-            EmployeeView(employee: Employee(name: "Mary Ann", jobTitle: "Directory of Media Arts", imageName: "user3"))
+        List(employees) { emp in
+            EmployeeView(employee: emp)
         }
+
     }
 }
 

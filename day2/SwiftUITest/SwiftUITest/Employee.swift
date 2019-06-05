@@ -8,7 +8,9 @@
 
 import SwiftUI
 
-struct Employee: Hashable, Codable {
+struct Employee: Hashable, Codable, Identifiable {
+    var id: Int // need this to conform to Identifiable
+    
     var name : String
     var jobTitle : String
     var imageName: String

@@ -133,8 +133,11 @@ Sidenote: Let's create connect 4 ?
 
 https://developer.apple.com/videos/play/wwdc2019/216/
 
+## Data Source
 
-
+- snapshot and apply
+- NSDiffableDataSourceSnapshot
+- Process is create another snapshot, and absorbe the diff, and animate the transition
 
 
 

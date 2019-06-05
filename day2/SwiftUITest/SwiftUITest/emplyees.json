@@ -1,0 +1,14 @@
+[
+    {
+        "name","Kiichi",
+        "jobTitle": "Developer"
+    },
+    {
+        "name","John",
+        "jobTitle": "Direftor"
+    },
+    {
+        "name","Mary",
+        "jobTitle": "Sales Manager"
+    }
+]

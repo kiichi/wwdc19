@@ -19,6 +19,14 @@ struct EmployeeView : View {
             Text(employee.jobTitle)
             .font(.title)
             .color(.secondary)
+            HStack{
+                BadgeImageView(imageName: "badge1")
+                BadgeImageView(imageName: "badge2")
+                BadgeImageView(imageName: "badge3")
+                BadgeImageView(imageName: "badge4")
+                BadgeImageView(imageName: "badge5")
+                BadgeImageView(imageName: "badge6")
+            }
         }
     }
 }
@@ -26,7 +34,7 @@ struct EmployeeView : View {
 struct EmployeeView_Previews : PreviewProvider {
     static var previews: some View {
         //EmployeeView()
-        EmployeeView(employee: Employee(name: "Kiichi Takeuchi", jobTitle: "Sr. App Developer", imageName: "user1"))
+        EmployeeView(employee: Employee(id:1, name: "Kiichi Takeuchi", jobTitle: "Sr. App Developer", imageName: "user1"))
     }
 }
 #endif

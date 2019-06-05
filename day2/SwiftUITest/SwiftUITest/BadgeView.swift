@@ -9,15 +9,19 @@
 import SwiftUI
 
 struct BadgeImageView : View {
+    let imageName:String
     var body: some View {
-        Image("user1")
+        Image(imageName)
+            .frame(width:50, height: 50)
+            //.imageScale(.small) // ?
+            //.scaledToFit() //?
     }
 }
 
 #if DEBUG
 struct BadgeImageView_Previews : PreviewProvider {
     static var previews: some View {
-        BadgeImageView()
+        BadgeImageView(imageName:"badge5")
     }
 }
 #endif
