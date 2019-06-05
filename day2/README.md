@@ -90,12 +90,12 @@ not much control?
       - Gesture
       - Shadow
       - Focus
- - Anchor
-  - Stick object on surface - more powerful than Vufolia
-  - Plane, Face, Image, etc...
+   - Anchor
+      - Stick object on surface - more powerful than Vufolia
+      - Plane, Face, Image, etc...
 - Scene
 - Entity
- - object in space, respond to the gesture for example
+   - object in space, respond to the gesture for example
 
 Basically, ARView spone scene, and anchor is provided, and you attache entities on it. In Entity, you add components, setup position, and other children
 
@@ -104,7 +104,7 @@ Basically, ARView spone scene, and anchor is provided, and you attache entities 
 https://developer.apple.com/documentation/arkit/arscnview
 
 - People Occlusion
- - Using ML to find out the deptho
+	- Using ML to find out the deptho
  - Need to update ARView's config, and change frameSemantics property
 - Gesture
  - Enable drag by one line 
