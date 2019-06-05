@@ -1,3 +1,6 @@
+# Day 2
+
+Interest: RealityKit and SwiftUI
 
 ## What's New in Swift
 
