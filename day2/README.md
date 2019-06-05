@@ -6,8 +6,8 @@ https://apple.github.io/swift-evolution/
 
 
 - Better performance
- - After Swift 5, uses shared runtime of the OS
- - Reduce the distribution binary size
+   - After Swift 5, uses shared runtime of the OS
+   - Reduce the distribution binary size
 
 - Better bridging
 
