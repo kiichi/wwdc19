@@ -12,7 +12,11 @@ struct EmployeeView : View {
     var employee: Employee
     var body: some View {
         VStack {
-            ProfileImageView(imageName: employee.imageName)
+            HStack {
+                Spacer()
+                ProfileImageView(imageName: employee.imageName)
+                Spacer()
+            }
             Text(employee.name)
             .font(.largeTitle)
             .color(.primary)

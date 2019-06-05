@@ -12,10 +12,11 @@ struct ProfileImageView : View {
     let imageName:String
     var body: some View {
         Image(imageName)
-            .frame(height:200)
+            .frame(width:200, height: 200)
+            .padding()
             .scaledToFit() // mmm not working
             .clipShape(RoundedRectangle(cornerRadius: 20))
-            .background(Color.gray, cornerRadius: 20)        
+            .background(Color.gray, cornerRadius: 20)
     }
 }
 

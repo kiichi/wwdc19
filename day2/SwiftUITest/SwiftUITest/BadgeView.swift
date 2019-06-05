@@ -13,8 +13,8 @@ struct BadgeImageView : View {
     var body: some View {
         Image(imageName)
             .frame(width:50, height: 50)
-            //.imageScale(.small) // ?
-            //.scaledToFit() //?
+            .imageScale(.small) // ?
+            .scaledToFit() //?            
     }
 }
 
