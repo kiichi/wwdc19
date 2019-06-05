@@ -87,9 +87,9 @@ not much control?
 
 - Components
    - ARView
-    - Gesture
-    - Shadow
-    - Focus
+      - Gesture
+      - Shadow
+      - Focus
  - Anchor
   - Stick object on surface - more powerful than Vufolia
   - Plane, Face, Image, etc...
