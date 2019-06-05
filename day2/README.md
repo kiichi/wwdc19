@@ -86,10 +86,10 @@ not much control?
 - Reality Composer / Reality File
 
 - Components
- - ARView
-  - Gesture
-  - Shadow
-  - Focus
+   - ARView
+    - Gesture
+    - Shadow
+    - Focus
  - Anchor
   - Stick object on surface - more powerful than Vufolia
   - Plane, Face, Image, etc...
