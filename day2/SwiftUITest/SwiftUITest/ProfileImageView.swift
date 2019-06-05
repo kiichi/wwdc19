@@ -14,13 +14,14 @@ struct ProfileImageView : View {
         Image(imageName)
             //.background(Color.gray, cornerRadius: 20)
             .frame(width:200, height: 200)
+            .scaledToFit() // mmm not working
+            .imageScale(.small)
             .clipShape(RoundedRectangle(cornerRadius: 20))
             .overlay(
                 RoundedRectangle(cornerRadius: 20).stroke(Color.white, lineWidth: 5)
             )
             .shadow(radius: 10)
             .padding()
-            .scaledToFit() // mmm not working
     }
 }
 

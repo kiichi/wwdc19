@@ -2,6 +2,8 @@
 
 Interest - ML and SwiftUI
 
+https://developer.apple.com/videos/all-videos/?q=swiftui
+
 ## CreateML
 
 App to help training dataset. no coding.
@@ -154,6 +156,41 @@ https://developer.apple.com/videos/play/wwdc2019/216/
 - Organizations
 	- In-House
 	- Custom App - hosted custom app (Hosted enterprise?)
+
+
+
+## ARKit3 Body
+
+- People Occlusion
+	- Depth ordering by depth planes like layers against your FOV
+	- ML driven determination logic
+	- Process in : Segmentation, Depth, and identified people
+	- To enable this in RealityKit is to enable segmentation configuration in arview's session
+	- CustomComposition available through out other layers: SceneKit, and Metal
+		- If you already have AR app, you can integrate in this level, manually, otherwise, use RealityKit
+	- Buffer & Compositions - how it works in lower layers
+		- matte - processed image extracted segments 
+		- ML - lower resolution, missing detials would be captured in matte
+		- dialatedDepth - judged depth order. if object is front, no need to call mix() in Metal
+- Motion Capture
+	- Same steps, enable configuration for ARView 
+	- Steps, load async body, addAnchor, add it to ARView
+	- Skelton 3D model needs to conform all exact joint names
+	- Joints
+		- You can access modelTransforms
+		- You can also access each joint. e.g. localTransforms of the joint.
+		- bodyAnchor.transform is the root of the skelton position
+		- All other joints are available from the root, in recursive way
+		- ARBody gives  you direct access to 2D Image properties like projected on 2D Plane
+		- ARBody 2D Object
+			- detectedBody -> access skelton -> access definition, then goes each jointLandmarks. Those landmarks are enum you can loop through
+
+https://developer.apple.com/videos/play/wwdc2019/607/
+
+Side notes: how about building PikaPika App?
+
+
+
 
 
 
