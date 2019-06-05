@@ -105,13 +105,13 @@ https://developer.apple.com/documentation/arkit/arscnview
 
 - People Occlusion
 	- Using ML to find out the deptho
- - Need to update ARView's config, and change frameSemantics property
+	- Need to update ARView's config, and change frameSemantics property
 - Gesture
- - Enable drag by one line 
+	- Enable drag by one line 
 - Motion Capture
- - Tracking body
- - Both 2D and 3D
- - It's going to be like another anchor; ARBodyAnchor
+	- Tracking body
+	- Both 2D and 3D
+	- It's going to be like another anchor; ARBodyAnchor
 - Front and Back Camera
- - e.g. capture the face and project on plane
+	- e.g. capture the face and project on plane
 
