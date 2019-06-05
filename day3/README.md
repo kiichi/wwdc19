@@ -102,4 +102,39 @@ https://developer.apple.com/videos/play/wwdc2019/645/
 
 Sidenote: Let's create connect 4 ?
 
+## SwiftUI Essentials
+
+- State Management
+	- @State 
+	```
+	@State private var mymodel:MyModel
+	// read access mymodel.someproperty
+	// write access $mymode.someproperty
+	```
+- Modifier
+	- e.g. .font(.title)
+- Data Binding
+	- automatic binding e.g List
+	```
+		List(myDataset) { item in ...
+	```
+	- hold state, and detect when change happen (e.g do animate on select)
+	- Repeater in general
+	```
+		ForEach(items) { item in ...
+	```
+- Accessibility
+	- for voice command to take an action, call .accessibility() and define what to specify the command
+- Environment
+	- Topdown configuration that you can apply on all Views underneath
+- Navigation
+	- NavigationButton -  outlet to other view, nest the target view
+	- then configure the landing view navigationTitle etc
+
+https://developer.apple.com/videos/play/wwdc2019/216/
+
+
+
+
+
 

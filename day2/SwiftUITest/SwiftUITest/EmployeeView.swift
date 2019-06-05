@@ -11,9 +11,12 @@ import SwiftUI
 struct EmployeeView : View {
     var name:String
     var body: some View {
-        Text(self.name)
-        .font(.largeTitle)
-        .color(.primary)
+        VStack{
+            ProfileImageView()//.offset(x: 0, y: -130).padding(.bottom, -130)
+            Text(self.name)
+            .font(.largeTitle)
+            .color(.primary)
+        }
     }
 }
 #if DEBUG

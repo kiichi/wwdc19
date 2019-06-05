@@ -9,10 +9,12 @@
 import SwiftUI
 
 struct ContentView : View {
+    // declare list of components with @State
     var body: some View {
+        // Use List(varname) { items in ...
         VStack {
             EmployeeView(name: "Kiichi Takeuchi")
-            EmployeeView(name: "John Smith")
+            EmployeeView(name: "John Doe")
             EmployeeView(name: "Mary Ann")
         }
     }
