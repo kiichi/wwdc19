@@ -10,6 +10,7 @@
 		352DF5C822A82B3A00787B04 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DF5C722A82B3A00787B04 /* EmployeeView.swift */; };
 		352DF5CA22A8364600787B04 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DF5C922A8364600787B04 /* ProfileImageView.swift */; };
 		352DF5CC22A8368400787B04 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DF5CB22A8368400787B04 /* BadgeView.swift */; };
+		352DF5CE22A84A4000787B04 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DF5CD22A84A4000787B04 /* Employee.swift */; };
 		35FFCAD122A68FEB00689298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FFCAD022A68FEB00689298 /* AppDelegate.swift */; };
 		35FFCAD322A68FEB00689298 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FFCAD222A68FEB00689298 /* SceneDelegate.swift */; };
 		35FFCAD622A68FEB00689298 /* SwiftUITest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35FFCAD422A68FEB00689298 /* SwiftUITest.xcdatamodeld */; };
@@ -23,6 +24,7 @@
 		352DF5C722A82B3A00787B04 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		352DF5C922A8364600787B04 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 		352DF5CB22A8368400787B04 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		352DF5CD22A84A4000787B04 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		35FFCACD22A68FEB00689298 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FFCAD022A68FEB00689298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35FFCAD222A68FEB00689298 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				352DF5C722A82B3A00787B04 /* EmployeeView.swift */,
 				352DF5C922A8364600787B04 /* ProfileImageView.swift */,
 				352DF5CB22A8368400787B04 /* BadgeView.swift */,
+				352DF5CD22A84A4000787B04 /* Employee.swift */,
 			);
 			path = SwiftUITest;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				352DF5CA22A8364600787B04 /* ProfileImageView.swift in Sources */,
+				352DF5CE22A84A4000787B04 /* Employee.swift in Sources */,
 				352DF5CC22A8368400787B04 /* BadgeView.swift in Sources */,
 				352DF5C822A82B3A00787B04 /* EmployeeView.swift in Sources */,
 				35FFCAD122A68FEB00689298 /* AppDelegate.swift in Sources */,

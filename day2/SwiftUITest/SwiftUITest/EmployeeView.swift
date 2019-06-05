@@ -9,20 +9,24 @@
 import SwiftUI
 
 struct EmployeeView : View {
-    var name:String
+    var employee: Employee
     var body: some View {
-        VStack{
-            ProfileImageView()//.offset(x: 0, y: -130).padding(.bottom, -130)
-            Text(self.name)
+        VStack {
+            ProfileImageView(imageName: employee.imageName)
+            Text(employee.name)
             .font(.largeTitle)
             .color(.primary)
+            Text(employee.jobTitle)
+            .font(.title)
+            .color(.secondary)
         }
     }
 }
 #if DEBUG
 struct EmployeeView_Previews : PreviewProvider {
     static var previews: some View {
-        EmployeeView(name: "Kiichi Takeuchi")
+        //EmployeeView()
+        EmployeeView(employee: Employee(name: "Kiichi Takeuchi", jobTitle: "Sr. App Developer", imageName: "user1"))
     }
 }
 #endif

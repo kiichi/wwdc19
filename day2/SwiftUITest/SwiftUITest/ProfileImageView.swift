@@ -9,20 +9,20 @@
 import SwiftUI
 
 struct ProfileImageView : View {
+    let imageName:String
     var body: some View {
-        Image("user1")
+        Image(imageName)
             .frame(height:200)
+            .scaledToFit() // mmm not working
             .clipShape(RoundedRectangle(cornerRadius: 20))
-            .background(Color.gray, cornerRadius: 20)
-            .scaledToFit()
-        
+            .background(Color.gray, cornerRadius: 20)        
     }
 }
 
 #if DEBUG
 struct ProfileImageView_Previews : PreviewProvider {
     static var previews: some View {
-        ProfileImageView()
+        ProfileImageView(imageName:"user1")
     }
 }
 #endif
