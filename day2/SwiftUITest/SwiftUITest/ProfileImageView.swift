@@ -14,7 +14,8 @@ struct ProfileImageView : View {
         Image(imageName)
             //.background(Color.gray, cornerRadius: 20)
             .frame(width:200, height: 200)
-            .scaledToFit() // mmm not working
+            //.scaledToFit() // mmm not working
+            .aspectRatio(contentMode: .fit)
             .imageScale(.small)
             .clipShape(RoundedRectangle(cornerRadius: 20))
             .overlay(
