@@ -15,9 +15,13 @@ let employees: [Employee] = [
 
 struct ContentView : View {
     var body: some View {
-        List(employees) { emp in
-            EmployeeView(employee: emp)
-        }
+        NavigationView {
+            List(employees) { emp in
+                NavigationButton(destination:EmployeeView(employee: emp)){
+                    EmployeeItemView(employee: emp)
+                }
+            }
+        }.navigationBarTitle(Text("Employees"))
 
     }
 }

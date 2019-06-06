@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3517EFAE22A8697400CD3439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3517EFAD22A8697400CD3439 /* Assets.xcassets */; };
+		3517EFB222A9868900CD3439 /* EmployeeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517EFB122A9868900CD3439 /* EmployeeItemView.swift */; };
 		352C1A6522A858D4006A9191 /* emplyees.json in Resources */ = {isa = PBXBuildFile; fileRef = 352C1A6422A858D4006A9191 /* emplyees.json */; };
 		352DF5C822A82B3A00787B04 /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DF5C722A82B3A00787B04 /* EmployeeView.swift */; };
 		352DF5CA22A8364600787B04 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DF5C922A8364600787B04 /* ProfileImageView.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3517EFAD22A8697400CD3439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3517EFB122A9868900CD3439 /* EmployeeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeItemView.swift; sourceTree = "<group>"; };
 		352C1A6422A858D4006A9191 /* emplyees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emplyees.json; sourceTree = "<group>"; };
 		352DF5C722A82B3A00787B04 /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		352DF5C922A8364600787B04 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
@@ -69,17 +71,18 @@
 			isa = PBXGroup;
 			children = (
 				3517EFAD22A8697400CD3439 /* Assets.xcassets */,
+				352DF5CD22A84A4000787B04 /* Employee.swift */,
+				35FFCADE22A68FEC00689298 /* LaunchScreen.storyboard */,
 				35FFCAD022A68FEB00689298 /* AppDelegate.swift */,
 				35FFCAD222A68FEB00689298 /* SceneDelegate.swift */,
 				35FFCAD722A68FEB00689298 /* ContentView.swift */,
-				35FFCADE22A68FEC00689298 /* LaunchScreen.storyboard */,
-				35FFCAE122A68FEC00689298 /* Info.plist */,
-				35FFCAD422A68FEB00689298 /* SwiftUITest.xcdatamodeld */,
-				35FFCADB22A68FEC00689298 /* Preview Content */,
+				3517EFB122A9868900CD3439 /* EmployeeItemView.swift */,
 				352DF5C722A82B3A00787B04 /* EmployeeView.swift */,
 				352DF5C922A8364600787B04 /* ProfileImageView.swift */,
 				352DF5CB22A8368400787B04 /* BadgeView.swift */,
-				352DF5CD22A84A4000787B04 /* Employee.swift */,
+				35FFCAE122A68FEC00689298 /* Info.plist */,
+				35FFCAD422A68FEB00689298 /* SwiftUITest.xcdatamodeld */,
+				35FFCADB22A68FEC00689298 /* Preview Content */,
 				352C1A6422A858D4006A9191 /* emplyees.json */,
 			);
 			path = SwiftUITest;
@@ -169,6 +172,7 @@
 				352DF5CE22A84A4000787B04 /* Employee.swift in Sources */,
 				352DF5CC22A8368400787B04 /* BadgeView.swift in Sources */,
 				352DF5C822A82B3A00787B04 /* EmployeeView.swift in Sources */,
+				3517EFB222A9868900CD3439 /* EmployeeItemView.swift in Sources */,
 				35FFCAD122A68FEB00689298 /* AppDelegate.swift in Sources */,
 				35FFCAD322A68FEB00689298 /* SceneDelegate.swift in Sources */,
 				35FFCAD822A68FEB00689298 /* ContentView.swift in Sources */,
