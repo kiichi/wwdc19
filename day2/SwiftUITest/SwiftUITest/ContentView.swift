@@ -15,16 +15,13 @@ let employees: [Employee] = [
     Employee(id:5, name: "Ali Shanker", jobTitle: "Support", imageName: "user2", badgeIds:[]),
     Employee(id:6, name: "Harry Smith", jobTitle: "Logistics", imageName: "user3", badgeIds:[1])
 ]
-
+//let defaultEmployee = Employee(id:6, name: "", jobTitle: "", imageName: "user1", badgeIds:[])
 struct ContentView : View {
+    @State var blankEmployee:Employee = Employee.default
     var body: some View {
         NavigationView {
-            List(employees) { emp in
-                NavigationButton(destination:EmployeeView(employee: emp)){
-                    EmployeeItemView(employee: emp)
-                }
-            }
-        }.navigationBarTitle(Text("Employees"))
+            EmployeeListView(searchEmployee: $blankEmployee)
+        }
 
     }
 }

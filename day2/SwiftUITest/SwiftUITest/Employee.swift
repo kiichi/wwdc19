@@ -15,4 +15,6 @@ struct Employee: Hashable, Codable, Identifiable {
     var jobTitle : String
     var imageName: String
     var badgeIds: [Int]
+    
+    static let `default` = Self(id:6, name: "", jobTitle: "", imageName: "user1", badgeIds:[])
 }
