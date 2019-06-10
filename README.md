@@ -21,7 +21,7 @@ https://youtu.be/HtKJiYrcmEk
 
 [kiichi/wwdc19 at step1](https://github.com/kiichi/wwdc19/tree/step1)
 
-[step1.png (800×731)](https://raw.githubusercontent.com/kiichi/wwdc19/master/images/step1.png)
+![step1.png (800×731)](https://raw.githubusercontent.com/kiichi/wwdc19/master/images/step1.png)
 
 ### Step 2
 
