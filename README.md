@@ -11,3 +11,10 @@ https://youtu.be/wuzTUZQyZ1M
 
 Scoooter
 https://youtu.be/HtKJiYrcmEk
+
+## Code
+
+[SwiftUI Test](https://github.com/kiichi/wwdc19/tree/master/day2/SwiftUITest)
+
+
+
