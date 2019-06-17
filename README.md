@@ -64,6 +64,10 @@ https://youtu.be/HtKJiYrcmEk
 
 ![final-3.png (800×1934)](https://raw.githubusercontent.com/kiichi/wwdc19/master/images/final-3.png)
 
+### Appendix
+
+![Complexity](https://raw.githubusercontent.com/kiichi/wwdc19/master/images/complexity.png)
+
 
 
 
